@@ -1,7 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://your-deployed-link.vercel.app" target="_blank">
-      <img src="public/images/readme.png" alt="Portfolio Banner">
+    <a href="https://vaibhav-portfolio-roan.vercel.app/" target="_blank">
     </a>
   <br />
 
