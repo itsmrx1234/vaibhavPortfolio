@@ -47,20 +47,41 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
+          {/* First Project - Clickable Image & Title */}
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="MultiPlayer Typing Game" />
+              <a
+                href="https://typeracer-web.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/images/project1.png"
+                  alt="MultiPlayer Typing Game"
+                  className="cursor-pointer hover:opacity-90 transition"
+                />
+              </a>
             </div>
             <div className="text-content">
-              <h2>
-                Compete with your friends in a multiplayer typing game
-              </h2>
+              <a
+                href="https://typeracer-web.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h2 className="cursor-pointer hover:text-blue-400 transition">
+                  Compete with your friends in a multiplayer typing game
+                </h2>
+              </a>
+              <br/>
               <p className="text-white-50 md:text-xl">
-                An app that lets you challenge friends in real-time typing competitions. Built with React, Node.js, and WebSockets for a smooth multiplayer experience.
+                An app that lets you challenge friends in real-time typing
+                competitions. Built with React, Node.js, and WebSockets for a
+                smooth multiplayer experience.
               </p>
             </div>
           </div>
 
+          {/* Other Projects (Not Clickable) */}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">

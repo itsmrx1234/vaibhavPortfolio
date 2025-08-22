@@ -2,7 +2,7 @@ const navLinks = [
   { name: "Work", link: "#work" },
   { name: "Experience", link: "#experience" },
   { name: "Skills", link: "#skills" },
-  { name: "Resume", link: "https://drive.google.com/file/d/1Y818IdLceOHMT-mcQpzsEfBMk7GmcyPJ/view?usp=drive_link" },
+  { name: "Resume", link: "https://drive.google.com/file/d/1u2w1aC7UAZQU3RaQhiYIaFVdP42cqFMA/view" },
 ];
 
 // 🔹 Hero rotating words (use resume theme instead of “ideas/designs”)
@@ -96,7 +96,7 @@ const techStackIcons = [
 
 // 🔹 Work / Experience Cards
 const expCards = [
-  {
+  { 
     review:
       "Built interactive dashboards with React.js and Tailwind CSS, boosting user engagement by 20%. Developed REST APIs with Node.js, Express, and PostgreSQL via Prisma ORM, secured with JWT.",
     imgPath: "/images/exp1.png",
@@ -135,7 +135,7 @@ const testimonials = [
 // 🔹 Social icons (replace with actual links)
 const socialImgs = [
   { name: "linkedin", imgPath: "/images/linkedin.png", link: "https://www.linkedin.com/in/vaibhav-jha-084533352/" },
-  { name: "github", imgPath: "/images/x.png", link: "https://github.com/itsmrx1234" },
+  { name: "github", imgPath: "/images/github.png", link: "https://github.com/itsmrx1234" },
   { name: "email", imgPath: "/images/fb.png", link: "mailto:2k22.cscys.2211080@gmail.com" },
 ];
 
